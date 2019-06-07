@@ -1,0 +1,745 @@
+{
+	"user": {
+		"email": "test@freshmile.com",
+		"newsletter": true,
+		"nickname": "Pizza",
+		"civil_status": {
+			"firstname": "Test",
+			"lastname": "Freshmile",
+			"address": {
+				"firstname": "Test",
+				"lastname": "Freshmile",
+				"country": "France",
+				"city": "Entzheim",
+				"zipcode": "67960",
+				"phone": "0184887528",
+				"street": "Bâtiment Blériot"
+			}
+		},
+		"tokens": [
+		    {
+		        "name": "Entzheim Hager",
+		        "datetime": "2015-03-27T13:00:00+01:00"
+		    },
+		    {
+		        "name": "20 novembre",
+		        "datetime": "2015-11-20T14:00:00+01:00"
+		    },
+		    {
+		        "name": "31 mars",
+		        "datetime": "2016-03-31T09:05:28+02:00"
+		    },
+		    {
+		        "name": "Porte-cl\u00c3\u00a9",
+		        "datetime": "2016-05-18T08:41:10+02:00"
+		    },
+		    {
+		        "name": "1938 - Badge Eurom\u00c3\u00a9tropole Stasbourg",
+		        "datetime": "2016-05-19T15:17:19+02:00"
+		    },
+		    {
+		        "name": "Haute-Garonne",
+		        "datetime": "2016-10-04T11:19:48+02:00"
+		    },
+		    {
+		        "name": "Energis",
+		        "datetime": "2016-10-25T10:50:50+02:00"
+		    },
+		    {
+		        "name": "Porte-cl\u00e9s - SAP",
+		        "datetime": "2016-11-14T10:24:15+01:00"
+		    },
+		    {
+		        "name": "Porte_cl\u00e9",
+		        "datetime": "2016-12-21T14:19:28+01:00"
+		    },
+		    {
+		        "name": "Badge Freshmile",
+		        "datetime": "2017-02-17T09:46:01+01:00"
+		    },
+		    {
+		        "name": "Porte-cl\u00e9 noir",
+		        "datetime": "2017-06-08T07:46:20+02:00"
+		    },
+		    {
+		        "name": "Carte Pfalzwerke n\u00b0",
+		        "datetime": "2018-03-20T11:28:43+01:00"
+		    },
+		    {
+		        "name": "Carte Pfalzwerke n\u00b0",
+		        "datetime": "2018-03-20T11:29:38+01:00"
+		    },
+		    {
+		        "name": "Porte-cl\u00e9 ZE Pass La R\u00e9union n\u00b0",
+		        "datetime": "2018-04-06T16:07:17+02:00"
+		    }
+		],
+		"transactions": [
+			{
+				"label": "Commande du 03/05/2018",
+				"operation": -499,
+				"balance": 3244,
+				"currency":	"EUR",
+				"datetime":	"2018-05-03T18:45:37+02:00"
+			},
+			{
+				"label": "Charge N0N32",
+				"operation": -458,
+				"balance": 3743,
+				"currency":	"EUR",
+				"datetime":	"2018-04-17T14:04:37+02:00"
+			},
+			{
+				"label": "Charge ENTZ1",
+				"operation": -412,
+				"balance": 4201,
+				"currency":	"EUR",
+				"datetime":	"2018-02-07T17:12:39+01:00"
+			},
+			{
+				"label": "Charge BSVU1",
+				"operation": -387,
+				"balance": 4613,
+				"currency":	"EUR",
+				"datetime":	"2018-01-18T09:48:17+02:00"
+			},
+			{
+				"label": "Crédit",
+				"operation": 5000,
+				"balance": 5000,
+				"currency":	"EUR",
+				"datetime":	"2017-12-29T13:40:23+01:00"
+			}
+		],
+		"charges": [
+		    {
+		        "ref": "9979C410AE5703",
+		        "token": "8852",
+		        "start": "2018-04-17T14:03:25+02:00",
+		        "end": "2018-04-17T14:04:37+02:00",
+		        "consumption": 175,
+		        "price": 0,
+		        "charging_periods": [],
+		        "connector": {
+		            "standard": "IEC_62196_T2",
+		            "voltage": 230,
+		            "amperage": 64,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "N0N32",
+		                "location": {
+		                    "name": "Int\u00e9gration Bordeaux M\u00e9tropole",
+		                    "latitude": 44.8374,
+		                    "longitude": -0.585837,
+		                    "country": "France",
+		                    "city": "Bordeaux",
+		                    "zipcode": "33000",
+		                    "street": "Quelque part dans BM"
+		                }
+		            }
+		        }
+		    },
+		    {
+		        "ref": "FF65256B70B141",
+		        "token": "4122",
+		        "start": "2018-02-09T16:32:38+01:00",
+		        "end": "2018-02-09T17:20:15+01:00",
+		        "consumption": 6682,
+		        "price": 458,
+		        "charging_periods": [
+		            {
+		                "consumption": 765,
+		                "start_date_time": "2018-02-09T16:37:38+01:00"
+		            },
+		            {
+		                "consumption": 752,
+		                "start_date_time": "2018-02-09T16:42:38+01:00"
+		            },
+		            {
+		                "consumption": 762,
+		                "start_date_time": "2018-02-09T16:47:38+01:00"
+		            },
+		            {
+		                "consumption": 774,
+		                "start_date_time": "2018-02-09T16:52:38+01:00"
+		            },
+		            {
+		                "consumption": 756,
+		                "start_date_time": "2018-02-09T16:57:38+01:00"
+		            },
+		            {
+		                "consumption": 719,
+		                "start_date_time": "2018-02-09T17:02:38+01:00"
+		            },
+		            {
+		                "consumption": 678,
+		                "start_date_time": "2018-02-09T17:07:38+01:00"
+		            },
+		            {
+		                "consumption": 644,
+		                "start_date_time": "2018-02-09T17:12:38+01:00"
+		            },
+		            {
+		                "consumption": 627,
+		                "start_date_time": "2018-02-09T17:17:38+01:00"
+		            }
+		        ],
+		        "connector": {
+		            "standard": "DOMESTIC_E",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "PBXS1",
+		                "location": {
+		                    "name": "Auch, Massena",
+		                    "latitude": 43.6488,
+		                    "longitude": 0.590491,
+		                    "country": "FR",
+		                    "city": "Auch",
+		                    "zipcode": "32000",
+		                    "street": "Rue Mass\u00e9na"
+		                }
+		            },
+		        }
+		    },
+		    {
+		        "ref": "9C0F9594238399",
+		        "token": "1781",
+		        "start": "2018-02-07T15:43:59+01:00",
+		        "end": "2018-02-07T17:12:39+01:00",
+		        "consumption": 4320,
+		        "price": 0,
+		        "charging_periods": [
+		            {
+		                "consumption": 20,
+		                "start_date_time": "2018-02-07T15:45:02+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:46:03+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:47:04+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:48:05+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:49:06+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:50:07+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:51:08+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:52:09+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:53:10+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:54:11+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:55:12+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:56:13+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:57:14+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T15:58:15+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T15:59:16+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:00:17+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:01:18+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:02:19+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:03:20+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:04:21+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:05:22+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:06:23+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:07:24+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:08:25+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:09:26+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:10:27+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:11:28+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:12:29+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:13:30+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:14:31+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:15:32+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:16:33+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:17:34+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:18:35+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:19:36+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:20:37+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:21:38+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:22:39+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:23:40+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:24:41+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:25:42+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:26:43+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:27:44+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:28:45+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:29:46+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:30:47+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:31:48+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:32:49+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:33:50+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:34:51+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:35:52+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:36:53+01:00"
+		            },
+		            {
+		                "consumption": 20,
+		                "start_date_time": "2018-02-07T16:37:54+01:00"
+		            },
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-02-07T16:38:55+01:00"
+		            },
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-02-07T16:39:56+01:00"
+		            },
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-02-07T16:40:57+01:00"
+		            },
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-02-07T16:41:58+01:00"
+		            },
+		            {
+		                "consumption": 10,
+		                "start_date_time": "2018-02-07T16:42:59+01:00"
+		            },
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-02-07T16:44:00+01:00"
+		            },
+		            {
+		                "consumption": 30,
+		                "start_date_time": "2018-02-07T16:45:01+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:46:02+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:47:03+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:48:04+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:49:05+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:50:06+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:51:07+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:52:08+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:53:09+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:54:10+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:55:11+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:56:12+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:57:13+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T16:58:14+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T16:59:15+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:00:16+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T17:01:17+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:02:18+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T17:03:19+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:04:20+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T17:05:21+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:06:22+01:00"
+		            },
+		            {
+		                "consumption": 51,
+		                "start_date_time": "2018-02-07T17:07:23+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:08:24+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T17:09:25+01:00"
+		            },
+		            {
+		                "consumption": 60,
+		                "start_date_time": "2018-02-07T17:10:26+01:00"
+		            },
+		            {
+		                "consumption": 50,
+		                "start_date_time": "2018-02-07T17:11:27+01:00"
+		            },
+		            {
+		                "consumption": 30,
+		                "start_date_time": "2018-02-07T17:12:28+01:00"
+		            }
+		        ],
+		        "connector": {
+		            "standard": "IEC_62196_T3C",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "ENTZ1",
+		                "location": {
+		                    "name": "Entzheim, Freshmile",
+		                    "latitude": 48.5401,
+		                    "longitude": 7.61761,
+		                    "country": "France",
+		                    "city": "Entzheim",
+		                    "zipcode": "67960",
+		                    "street": "A\u00e9roport Strasbourg\nB\u00e2timent Bl\u00e9riot"
+		                }
+		            }
+		        }
+		    },
+		    {
+		        "ref": "37F7E8FCD5A75F",
+		        "token": "4880",
+		        "start": "2018-01-18T09:12:23+02:00",
+		        "end": "2018-01-18T09:48:17+02:00",
+		        "consumption": 3631,
+		        "price": 387,
+		        "charging_periods": [
+		            {
+		                "consumption": 0,
+		                "start_date_time": "2018-01-18T09:12:25+02:00"
+		            },
+		            {
+		                "consumption": 11,
+		                "start_date_time": "2018-01-18T09:13:09+02:00"
+		            },
+		            {
+		                "consumption": 24,
+		                "start_date_time": "2018-01-18T09:13:20+02:00"
+		            },
+		            {
+		                "consumption": 701,
+		                "start_date_time": "2018-01-18T09:18:20+02:00"
+		            },
+		            {
+		                "consumption": 650,
+		                "start_date_time": "2018-01-18T09:23:20+02:00"
+		            },
+		            {
+		                "consumption": 611,
+		                "start_date_time": "2018-01-18T09:28:20+02:00"
+		            },
+		            {
+		                "consumption": 568,
+		                "start_date_time": "2018-01-18T09:33:21+02:00"
+		            },
+		            {
+		                "consumption": 537,
+		                "start_date_time": "2018-01-18T09:38:21+02:00"
+		            },
+		            {
+		                "consumption": 529,
+		                "start_date_time": "2018-01-18T09:43:21+02:00"
+		            }
+		        ],
+		        "connector": {
+		            "standard": "IEC_62196_T2",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_1_PHASE",
+		            "evse": {
+		                "uid": "BSVU1",
+		                "location": {
+		                    "name": "La Chapelle-en-Serval , Place Dauphin\u00e9",
+		                    "latitude": 49.1266,
+		                    "longitude": 2.53456,
+		                    "country": "France",
+		                    "city": "La Chapelle-en-Serval",
+		                    "zipcode": "60520",
+		                    "street": "Place Dauphin\u00e9"
+		                }
+		            }
+		        }
+		    },
+		    {
+		        "ref": "59b10b23d4824",
+		        "token": "1077",
+		        "start": "2017-09-07T11:02:14+02:00",
+		        "end": "2017-09-07T11:03:58+02:00",
+		        "consumption": 9730,
+		        "price": 0,
+		        "charging_periods": [],
+		        "connector": {
+		            "standard": "IEC_62196_T2",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "WW011",
+		                "location": {
+		                    "name": "Walther-Werke, Leipzig Integration",
+		                    "latitude": 51.3293,
+		                    "longitude": 12.3278,
+		                    "country": "Deutschland",
+		                    "city": "Leipzig",
+		                    "zipcode": "04229",
+		                    "street": "Karl-Heine-Stra\u00dfe 99"
+		                }
+		            }
+		        }
+		    },
+		    {
+		        "ref": "59661a8db8c58",
+		        "token": "4281",
+		        "start": "2017-07-12T14:48:13+02:00",
+		        "end": "2017-07-12T14:49:09+02:00",
+		        "consumption": 160,
+		        "price": 0,
+		        "charging_periods": [],
+		        "connector": {
+		            "standard": "CHADEMO",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "BBVJ1",
+		                "location": {
+		                    "name": "Test EV Box",
+		                    "latitude": 48.8704,
+		                    "longitude": 2.2247,
+		                    "country": "FR",
+		                    "city": "Suresnes",
+		                    "zipcode": "TBD",
+		                    "street": "40 boulevard Henri Sellier"
+		                }
+		            }
+		        }
+		    },
+		    {
+		        "ref": "DENTUTNJGT",
+		        "token": "8624",
+		        "start": "2016-10-18T19:30:56+02:00",
+		        "end": "2016-10-18T19:31:32+02:00",
+		        "consumption": 60,
+		        "price": 0,
+		        "charging_periods": [],
+		        "connector": {
+		            "standard": "IEC_62196_T3C",
+		            "voltage": 230,
+		            "amperage": 32,
+		            "powertype": "AC_3_PHASE",
+		            "evse": {
+		                "uid": "ZGZK2",
+		                "location": {
+		                    "name": "Bourges, S\u00e9raucourt",
+		                    "latitude": 47.0788,
+		                    "longitude": 2.39916,
+		                    "country": "FR",
+		                    "city": "Bourges",
+		                    "zipcode": "18000",
+		                    "street": "Place S\u00e9raucourt"
+		                }
+		            }
+		        }
+		    }
+		]
+	},
+	"merchandises": [
+		{
+			"ref": "card",
+			"name": "Carte Freshmile RFID",
+			"description": "Carte RFID associée à votre compte Freshmile.\nÀ utiliser sur les bornes de charge Freshmile et dans les réseaux partenaires.\nFormat carte de crédit pour se glisser dans votre portefeuille ou dans votre boîte à gants.",
+			"price": 416,
+			"image": "card.png"
+		},
+		{
+			"ref": "keyfob",
+			"name": "Porte-clé Freshmile RFID",
+			"description": "Porte-clé RFID associé à votre compte Freshmile.\nÀ utiliser sur les bornes de charge Freshmile et dans les réseaux partenaires.\nAjoutez cet élégant badge Freshmile à votre porte-clé pour l'avoir toujours avec vous !",
+			"price": 416,
+			"image": "keyfob.png"
+		}
+	],
+}
