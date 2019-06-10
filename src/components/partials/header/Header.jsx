@@ -8,21 +8,13 @@ export default function Header() {
   return (
     <div className="header">
       <div className="left_menu">
-        <img
-          className="logo"
-          src="../../../../public/enonce/img/freshmile.png"
-          alt="logo company"
-        />
+        <img className="logo" src="./img/freshmile.png" alt="logo company" />
         <NavPages />
       </div>
       <div className="rigth_menu">
         <div className="icons">
-          <FontAwesomeIcon icon={faShoppingCart} />
-          <img
-            className="avatar"
-            src="../../../../public/enonce/img/avatar.png"
-            alt="user avatar"
-          />
+          <FontAwesomeIcon icon={faShoppingCart} size="3x" color="#34495e" />
+          <img className="avatar" src="./img/avatar.png" alt="user avatar" />
         </div>
         <p className="user_email">email@email.com</p>
       </div>
