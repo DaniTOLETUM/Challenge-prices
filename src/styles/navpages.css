@@ -1,6 +1,7 @@
 #nav_pages {
   display: flex;
   align-items: center;
+  margin: 1em 0 0 0;
 }
 
 #nav_pages .link {
@@ -12,7 +13,7 @@
 }
 
 #nav_pages .link.is-active {
-  color: #19c4eb;
+  color: #00a3e0;
   border-color: #fff;
 }
 
