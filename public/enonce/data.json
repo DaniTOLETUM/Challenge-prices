@@ -200,7 +200,7 @@
 		                    "zipcode": "32000",
 		                    "street": "Rue Mass\u00e9na"
 		                }
-		            },
+		            }
 		        }
 		    },
 		    {
@@ -741,5 +741,5 @@
 			"price": 416,
 			"image": "keyfob.png"
 		}
-	],
+	]
 }

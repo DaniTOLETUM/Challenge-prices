@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0;
+  margin: 1em;
+}
+
+.logo {
+  width: 15vw;
+}
+
+.left_menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 40vw;
+}
+
+.rigth_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60vw;
+}
+
+.icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin: 0 0 0 2em;
+}
+.user_email {
+  color: #3d4351;
+  margin: 0 0 0 2em;
+}
