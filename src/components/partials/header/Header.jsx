@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "../../../styles/header.css";
 
-export default function Header() {
+export default function Header({ UserData }) {
+  console.log(UserData);
   return (
     <div className="header">
       <div className="left_menu">
@@ -22,7 +23,7 @@ export default function Header() {
           </Link>
         </div>
         <Link className="link" to="/profile">
-          <p className="user_email">email@email.com</p>
+          <p className="user_email">{UserData.email}</p>
         </Link>
       </div>
     </div>
