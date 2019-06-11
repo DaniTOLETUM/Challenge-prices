@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import AllData from "../../enonce/data.json";
 
 export default class Profile extends Component {

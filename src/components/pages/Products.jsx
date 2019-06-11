@@ -4,17 +4,20 @@ import "../../styles/productslist.css";
 import AllData from "../../enonce/data.json";
 
 export default class Profile extends Component {
-  state = {
-    ProductsData: AllData.merchandises
-  };
+  state = { products: [] };
+
+  componentDidMount() {
+    this.setState({ products: AllData.merchandises });
+  }
 
   render() {
-    console.log(this.state.ProductsData);
+    const { products } = this.state;
+    console.log(products);
     return (
       <React.Fragment>
         <h1>Welcome to the Products Page</h1>
         <ul className="list products">
-          {this.state.ProductsData.map((product, index) => (
+          {products.map((product, index) => (
             <li className="product" key={index}>
               <Link to={`/shop/${product.ref}`}>
                 <img
