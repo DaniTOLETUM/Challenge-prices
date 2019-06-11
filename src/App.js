@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "../src/styles/App.css";
 import { Switch, Route } from "react-router-dom";
-import Header from "./components/partials/header/Header";
 import AllData from "./enonce/data.json";
 
 //COMPONENTS
+import Header from "./components/partials/header/Header";
+import Footer from "./components/partials/footer/Footer";
 import Home from "./components/pages/Home";
 import Profile from "./components/pages/Profile";
 import ChargeDetails from "./components/pages/ChargeDetails";
@@ -35,7 +36,7 @@ class App extends Component {
             <Route path="/*" component={Page404} />
           </Switch>
         </main>
-
+        <Footer />
       </div>
     );
   }
