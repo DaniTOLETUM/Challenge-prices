@@ -5,11 +5,15 @@
 }
 
 #nav_pages .link {
-  color: #34495e;
   text-decoration: none;
   margin-right: 10px;
   border-right: 2px solid;
   padding-right: 10px;
+}
+
+.pages {
+  color: #34495e;
+  font-weight: bold;
 }
 
 #nav_pages .link.is-active {

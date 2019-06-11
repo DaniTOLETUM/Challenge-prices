@@ -6,7 +6,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "../../../styles/header.css";
 
 export default function Header({ UserData }) {
-  console.log(UserData);
+  // console.log(UserData);
   return (
     <div className="header">
       <div className="left_menu">

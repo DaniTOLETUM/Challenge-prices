@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import './App.css';
+import "../src/styles/App.css";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/partials/header/Header";
 import AllData from "./enonce/data.json";
@@ -9,7 +9,7 @@ import Home from "./components/pages/Home";
 import Profile from "./components/pages/Profile";
 import ChargeDetails from "./components/pages/ChargeDetails";
 import Products from "./components/pages/Products";
-import ProductDetails from "./components/pages/ProductsDetails";
+import ProductsDetails from "./components/pages/ProductsDetails";
 import Page404 from "./components/pages/Page404";
 
 
@@ -20,18 +20,18 @@ class App extends Component {
 
 
   render() {
-    console.log(this.state.UserData);
+    // console.log(this.state.UserData);
     const { UserData } = this.state;
     return (
       <div className="App" >
         <Header UserData={UserData} />
-        <main id="content_main">
+        <main className="content_main">
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/profile" component={Profile} />
             <Route path="/charge/ref" component={ChargeDetails} />
             <Route path="/shop" component={Products} />
-            <Route path="/shop/ref" component={ProductDetails} />
+            <Route path="/shop/ref" component={ProductsDetails} />
             <Route path="/*" component={Page404} />
           </Switch>
         </main>

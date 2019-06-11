@@ -7,12 +7,20 @@ export default class NavPages extends Component {
     return (
       <nav id="nav_pages">
         <div>
-          <NavLink className="link" activeClassName="is-active" to="/carte">
+          <NavLink
+            className="link pages"
+            activeClassName="is-active"
+            to="/carte"
+          >
             Carte
           </NavLink>
         </div>
         <div>
-          <NavLink className="link" activeClassName="is-active" to="/shop">
+          <NavLink
+            className="link pages"
+            activeClassName="is-active"
+            to="/shop"
+          >
             Boutique
           </NavLink>
         </div>

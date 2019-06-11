@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Productdetails() {
+export default function ProductsDetails() {
   return (
-    <React.Fragment>
-      <h1>Welcome to Products Details Page</h1>
-    </React.Fragment>
+    <div>
+      <h1>ProductsDetails</h1>
+    </div>
   );
 }
