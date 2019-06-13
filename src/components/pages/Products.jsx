@@ -15,7 +15,7 @@ export default class Profile extends Component {
     console.log(products);
     return (
       <React.Fragment>
-        <h1>Welcome to the Products Page</h1>
+        <h1 className="title is-3">Welcome to the Products Page</h1>
         <ul className="products">
           {products.map((product, index) => (
             <li className="product" key={index}>
